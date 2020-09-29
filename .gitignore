@@ -1,0 +1,8 @@
+.vscode/
+.DS_Store
+*.userprefs
+node_modules/
+#al
+.alpackages/
+app.json
+*.app

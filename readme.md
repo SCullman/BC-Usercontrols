@@ -1,7 +1,7 @@
 # Controladdins/ Usercontrols as Form Fields within Business Central Forms
 
 ### Usercontrols simplified
-A usercontrol on a page in Business Central creates a `<div class=" control-addin-container">` as container for an iframe.
+A usercontrol on a page in Business Central creates a `<div class="control-addin-container">` as container for an iframe.
 That iframe loads the _scripts_ and _stylesheets_ defined in the corresponding `controladdin`. After the content of the iframe is loaded, Busines Central executes the _startupscript_ within the iframe.
 
 ### Why are form fields suitable for the design not easy?

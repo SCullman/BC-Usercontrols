@@ -1,4 +1,4 @@
-# N Controladdins/ Usercontrols as Form Fields within Business Central Forms
+# Controladdins/ Usercontrols as Form Fields within Business Central Forms
 
 ### Usercontrols simplified
 A usercontrol on a page in Business Central creates a `<div class=" control-addin-container">` as container for an iframe.
@@ -161,14 +161,3 @@ Both [ckeditor](https://ckeditor.com/) and [jscolor](https://jscolor.com) are de
 If usercontrol had optional caption / captionML property, in this case, the iframe could be rendered similar to a normal field, only instead of the input control the iframe would be loaded. 
 
 Maybe this hack inspires others to experiment and come up with other potential solutions.
-
-
-
-
-
-
-
-
-
-
-

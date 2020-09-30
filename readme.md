@@ -1,4 +1,4 @@
-# Nice user controls as form fields within business central forms
+# N Controladdins/ Usercontrols as Form Fields within Business Central Forms
 
 ### Usercontrols simplified
 A usercontrol on a page in Business Central creates a `<div class=" control-addin-container">` as container for an iframe.
@@ -148,9 +148,16 @@ Obviously, controladdins are not designed for form fields in Business Central.
 The idea to place usercontrols behind fields seems to be quite nice at first. But just a personalization with moving the fields will ruin everything again. 
 With "Show less" it can also happen that the field gets hidden but the usercontrol not. Then the usercontrol addresses might manipulate other fields. 
 
-Furthermore, usercontrols cannot be manipulated via personalization.
+Furthermore, usercontrols cannot be manipulated via personalization. 
+
+This limits the possible uses for add-ins, or you have to inform the users or limit the personalization.
 
 ## Final remark
+
+I would only recommend this approach for the auto sizing of the multiline controls.
+
+Both [ckeditor](https://ckeditor.com/) and [jscolor](https://jscolor.com) are delivered as single js files, no additional CSS files are required. That means that the scripts itself setup the styles in the form, not in the iframe. Please check also their licensing model if you consider to use them!
+
 If usercontrol had optional caption / captionML property, in this case, the iframe could be rendered similar to a normal field, only instead of the input control the iframe would be loaded. 
 
 Maybe this hack inspires others to experiment and come up with other potential solutions.
